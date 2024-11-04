@@ -1,0 +1,21 @@
+{
+
+  "name": "pp17043_l2/clinica",
+
+  "authors": [{
+    "name": "Mario Ricardo Pineda",
+    "email": "pp17043@ues.edu.sv"
+  }],
+  "type": "project",
+
+  "description": "Proyecto de laboratorio #2 de materia TPI",
+
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+
+
+
+}
