@@ -13,18 +13,18 @@ use App\Config\Parametros;
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-  <link rel="shortcut icon" href="<?= Parametros::BASE_URL ?>/views/images/heart-pulse.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="<?= Parametros::BASE_URL ?>/views/assets/images/heart-pulse.svg" type="image/x-icon">
   <title> Laboratorio #2 | PP17043 </title>
 
 
   <!-- BOOTSTRAP AND ICONS -->
-  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/styles/bootstrap.min.css">
-  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/styles/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/styles/fonts/bootstrap-icons.woff">
-  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/styles/fonts/bootstrap-icons.woff2">
+  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/assets/styles/bootstrap.min.css">
+  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/assets/styles/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/assets/styles/fonts/bootstrap-icons.woff">
+  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/assets/styles/fonts/bootstrap-icons.woff2">
 
   <!-- CUSTOMS STYLE -->
-  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/styles/style.css">
+  <link rel="stylesheet" href="<?= Parametros::BASE_URL ?>/views/assets/styles/style.css">
 
 </head>
 
