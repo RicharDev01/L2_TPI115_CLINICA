@@ -18,6 +18,11 @@ footer {
 }
 
 .text-bg-dark.active {
-  background-color: #0d6efd !important;
+  /* background-color: #0d6efd !important; */
+  background-image: linear-gradient( 111.4deg, #0d6efd 6.5%,  #212529 93.2% );
   /* color: red !important; */
+}
+
+.bg-main {
+  background-image: linear-gradient( 111.4deg, rgba(27,24,113,1) 6.5%,  #212529 93.2% );
 }

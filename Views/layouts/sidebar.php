@@ -53,15 +53,15 @@ use App\Config\Parametros;
       <i class="mx-2 bi bi-chevron-down"></i>
     </a>
     <div class="collapse" id="citas">
-      <a href="<?= Parametros::BASE_URL ?>/cita/programadas"
+      <a href="<?= Parametros::BASE_URL ?>/cita/citas_programadas"
         class="px-5 text-bg-dark list-group-item list-group-item-action">
         <i class="mx-2 bi bi-calendar-week"></i>Citas Programadas
       </a>
-      <a href="<?= Parametros::BASE_URL ?>/cita/canceladas"
+      <a href="<?= Parametros::BASE_URL ?>/cita/citas_canceladas"
         class="px-5 text-bg-dark list-group-item list-group-item-action">
         <i class="mx-2 bi bi-calendar-x"></i> Citas Canceladas
       </a>
-      <a href="<?= Parametros::BASE_URL ?>/cita/completadas"
+      <a href="<?= Parametros::BASE_URL ?>/cita/citas_completadas"
         class="px-5 text-bg-dark list-group-item list-group-item-action">
         <i class="mx-2 bi bi-calendar2-check"></i> Citas Completadas
       </a>
@@ -74,11 +74,11 @@ use App\Config\Parametros;
       <i class="mx-2 bi bi-chevron-down"></i>
     </a>
     <div class="collapse" id="especialidades">
-      <a href="<?= Parametros::BASE_URL ?>/especialidad/crear"
+      <a href="<?= Parametros::BASE_URL ?>/especialidad/registrar"
         class="px-5 text-bg-dark list-group-item list-group-item-action">
         <i class="mx-2 bi bi-plus-circle"></i>Crear Especialidad
       </a>
-      <a href="<?= Parametros::BASE_URL ?>/especialidad/ver"
+      <a href="<?= Parametros::BASE_URL ?>/especialidad/listar"
         class="px-5 text-bg-dark list-group-item list-group-item-action">
         <i class="mx-2 bi bi-folder2-open"></i> Ver Especialidades
       </a>

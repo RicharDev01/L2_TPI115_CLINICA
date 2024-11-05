@@ -15,13 +15,13 @@ require_once './Views/layouts/header.php';
 ?>
 
 
-<div class="row m-0">
+<div class="row m-0 flex-nowrap">
 
   <?php
   require_once './Views/layouts/sidebar.php';
   ?>
 
-  <main class="col-9">
+  <main class="col-9 bg-main m-0 flex-fill text-light">
 
     <?php
 
@@ -37,7 +37,7 @@ require_once './Views/layouts/header.php';
     } elseif (!isset($_GET['controller']) && !isset($_GET['action'])) {
       $nombre_controlador = Parametros::CONTROLLER_DEFAULT;
 
-      echo $nombre_controlador;
+      // echo $nombre_controlador;
 
     } else {
       show_error();
@@ -64,7 +64,7 @@ require_once './Views/layouts/header.php';
       }
 
     } else {
-      echo '  aca sera?';
+      // echo '  aca sera?';
       show_error();
     }
 
