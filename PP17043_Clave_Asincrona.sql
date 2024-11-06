@@ -1,5 +1,5 @@
 
-CREATE DATABASE L2_Clinica_PP17043; -- L2_Clinica_PP17043
+CREATE DATABASE L2_Clinica_PP17043;
 
 USE L2_Clinica_PP17043;
 
@@ -75,16 +75,16 @@ VALUES
 -- DATOS PARA TBL_DOCTORES
 INSERT INTO TBL_DOCTORES (DOC_NOMBRE, DOC_ESPECIALIDAD, DOC_TELEFONO)
 VALUES
-('Dr. Alberto Sanchez', 1, '7895-6321'), -- Doctor 1
-('Dra. Beatriz Jimenez', 2, '7412-9630'), -- Doctor 2
-('Dr. Carlos Fernandez', 3, '7892-1574'), -- Doctor 3
-('Dra. Daniela Ortega', 4, '7521-9630'), -- Doctor 4
-('Dr. Enrique Diaz', 5, '7896-3214'), -- Doctor 5
-('Dra. Fernanda Lopez', 6, '7412-4785'), -- Doctor 6
-('Dr. Gabriel Perez', 7, '7521-8452'), -- Doctor 7
-('Dra. Helena Ruiz', 8, '7895-2147'), -- Doctor 8
-('Dr. Ignacio Vargas', 9, '7415-2369'), -- Doctor 9
-('Dra. Julia Martinez', 10, '7896-1234'); -- Doctor 10
+('Alberto Sanchez', 1, '7895-6321'), -- Doctor 1
+('Beatriz Jimenez', 2, '7412-9630'), -- Doctor 2
+('Carlos Fernandez', 3, '7892-1574'), -- Doctor 3
+('Daniela Ortega', 4, '7521-9630'), -- Doctor 4
+('Enrique Diaz', 5, '7896-3214'), -- Doctor 5
+('Fernanda Lopez', 6, '7412-4785'), -- Doctor 6
+('Gabriel Perez', 7, '7521-8452'), -- Doctor 7
+('Helena Ruiz', 8, '7895-2147'), -- Doctor 8
+('Ignacio Vargas', 9, '7415-2369'), -- Doctor 9
+('Julia Martinez', 10, '7896-1234'); -- Doctor 10
 
 -- DATOS PARA TBL_CITAS
 INSERT INTO TBL_CITAS (CIT_FECHA, CIT_HORA, CIT_PACIENTE, CIT_DOCTOR, CIT_ESTADO)

@@ -36,13 +36,13 @@ use App\Helpers;
         <div class="row">
 
           <div class="form-group mt-3 col-6" >
-            <label for="nombre1">Primer Nombre:</label>
+            <label class="form-label" for="nombre1">Primer Nombre:</label>
             <input type="text" class="form-control" id="nombre1" name="nombre1" required >
 
           </div>
 
           <div class="form-group mt-3 col-6">
-            <label for="nombre2">Segundo Nombre:</label>
+            <label class="form-label" for="nombre2">Segundo Nombre:</label>
             <input type="text" class="form-control" id="nombre2" name="nombre2">
           </div>
 
@@ -51,30 +51,30 @@ use App\Helpers;
         <div class="row">
 
           <div class="form-group mt-3 col-6">
-            <label for="apellido1">Primer Apellido:</label>
+            <label class="form-label" for="apellido1">Primer Apellido:</label>
             <input type="text" class="form-control" id="apellido1" name="apellido1" required>
           </div>
 
           <div class="form-group mt-3 col-6">
-            <label for="apellido2">Segundo Apellido:</label>
+            <label class="form-label" for="apellido2">Segundo Apellido:</label>
             <input type="text" class="form-control" id="apellido2" name="apellido2">
           </div>
 
         </div>
 
         <div class="form-group mt-3">
-          <label for="fecha-nac">Fecha Nacimiento:</label>
+          <label class="form-label" for="fecha-nac">Fecha Nacimiento:</label>
           <input type="date" class="form-control" id="fecha-nac" name="fecha-nac" required >
          
         </div>
 
         <div class="form-group mt-3">
-          <label for="dui">DUI:</label>
+          <label class="form-label" for="dui">DUI:</label>
           <input type="text" class="form-control" id="dui" name="dui" required maxlength="10">
         </div>
 
         <div class="form-group mt-3">
-          <label for="telefono">Telefono:</label>
+          <label class="form-label" for="telefono">Telefono:</label>
           <input type="tel" class="form-control" id="telefono" name="telefono" required>
         </div>
 

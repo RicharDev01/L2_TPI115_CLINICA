@@ -7,10 +7,10 @@ use App\Config\Parametros;
 <section class="d-flex justify-content-center align-items-center h-100 flex-nowrap">
 
 
-  <article class="card w-50">
+  <article class="card w-75">
 
     <div class="card-header">
-      <h2>Lista de especialidades</h2>
+      <h2>Lista de medicos</h2>
     </div>
 
     <div class="card-body">
@@ -19,7 +19,8 @@ use App\Config\Parametros;
         <thead>
           <tr>
             <th>ID</th>
-            <th>Especialidad</th>
+            <th>Medico</th>
+            <th>Teléfono</th>
             <th>Acciones</th>
           </tr>
         </thead>
@@ -46,17 +47,18 @@ use App\Config\Parametros;
             </div>
           </div>
 
-          <?php foreach ($lista_especialidades as $especialidad): ?>
+          <?php foreach ($lista_medicos as $medico): ?>
             <tr>
-              <td> <?= $especialidad->getEspecialidad_id() ?> </td>
-              <td> <?= $especialidad->getNombre_especialidad() ?> </td>
+              <td> <?= $medico->getIdMedico() ?> </td>
+              <td> Dr(a). <?= $medico->getNombre() ?> </td>
+              <td> <?= $medico->getEspecialidad()->getNombre_especialidad() ?> </td>
               <td>
                 <a href="#" class="btn btn-danger"
-                  onclick="confirmAction('<?= Parametros::BASE_URL . '/especialidad/eliminar/' . $especialidad->getEspecialidad_id() ?>')">
+                  onclick="confirmAction('<?= Parametros::BASE_URL . '/medico/eliminar/' . $medico->getIdMedico() ?>')">
                   <i class="bi bi-trash"></i>
                 </a>
                 <a href="#" class="btn btn-warning"
-                  onclick="confirmAction('<?= Parametros::BASE_URL . '/especialidad/editar/' . $especialidad->getEspecialidad_id() ?>')">
+                  onclick="confirmAction('<?= Parametros::BASE_URL . '/medico/editar/' . $medico->getIdMedico() ?>')">
                   <i class="bi bi-pen"></i>
                 </a>
               </td>
